@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import VideoApp from './video-component/VideoJS';
+import VideoJS from './video-component/VideoJS'
 
 const GridWrapper = styled.div`
  display: grid;
@@ -12,9 +14,7 @@ const GridWrapper = styled.div`
 `;
 
 export const Home = (props) => (
-    <GridWrapper>
-        <p>This is a placeholder and i am writing on the home page </p>
-        <p>This is another placeholder</p>
-    </GridWrapper>
+
+   <VideoApp />
 )
  
